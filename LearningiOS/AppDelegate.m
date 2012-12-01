@@ -7,15 +7,26 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize viewController = _viewController;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    return YES;
+	NSLog(@"Application just started");
+	CGRect viewRect = [[UIScreen mainScreen] bounds];
+	self.window = [[UIWindow alloc] initWithFrame:viewRect];
+	
+	self.viewController = [[ViewController alloc] init];
+	self.window.rootViewController = self.viewController;
+	[self.window makeKeyAndVisible];
+	
+	NSLog(@"Finished Launch");
+	return YES;
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

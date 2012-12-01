@@ -21,6 +21,8 @@
 		131EDC3F166A6950000AD133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131EDC1D166A6950000AD133 /* Foundation.framework */; };
 		131EDC47166A6950000AD133 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 131EDC45166A6950000AD133 /* InfoPlist.strings */; };
 		131EDC4A166A6950000AD133 /* LearningiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 131EDC49166A6950000AD133 /* LearningiOSTests.m */; };
+		131EDC54166A695E000AD133 /* iOSicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 131EDC53166A695E000AD133 /* iOSicon.png */; };
+		131EDC56166A6966000AD133 /* iOSicon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 131EDC55166A6966000AD133 /* iOSicon72.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +40,24 @@
 		131EDC1B166A6950000AD133 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		131EDC1D166A6950000AD133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		131EDC1F166A6950000AD133 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		131EDC23166A6950000AD133 /* LearningiOS-Info.plist */ = {isa = PBXFileReference; path = "LearningiOS-Info.plist"; sourceTree = "<group>"; };
+		131EDC23166A6950000AD133 /* LearningiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LearningiOS-Info.plist"; sourceTree = "<group>"; };
 		131EDC25166A6950000AD133 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		131EDC27166A6950000AD133 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		131EDC29166A6950000AD133 /* LearningiOS-Prefix.pch */ = {isa = PBXFileReference; path = "LearningiOS-Prefix.pch"; sourceTree = "<group>"; };
-		131EDC2A166A6950000AD133 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		131EDC29166A6950000AD133 /* LearningiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LearningiOS-Prefix.pch"; sourceTree = "<group>"; };
+		131EDC2A166A6950000AD133 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		131EDC2B166A6950000AD133 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		131EDC2E166A6950000AD133 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		131EDC31166A6950000AD133 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		131EDC33166A6950000AD133 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		131EDC33166A6950000AD133 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		131EDC34166A6950000AD133 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		131EDC3B166A6950000AD133 /* LearningiOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningiOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		131EDC3C166A6950000AD133 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		131EDC44166A6950000AD133 /* LearningiOSTests-Info.plist */ = {isa = PBXFileReference; path = "LearningiOSTests-Info.plist"; sourceTree = "<group>"; };
+		131EDC44166A6950000AD133 /* LearningiOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LearningiOSTests-Info.plist"; sourceTree = "<group>"; };
 		131EDC46166A6950000AD133 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		131EDC48166A6950000AD133 /* LearningiOSTests.h */ = {isa = PBXFileReference; path = LearningiOSTests.h; sourceTree = "<group>"; };
+		131EDC48166A6950000AD133 /* LearningiOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearningiOSTests.h; sourceTree = "<group>"; };
 		131EDC49166A6950000AD133 /* LearningiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearningiOSTests.m; sourceTree = "<group>"; };
+		131EDC53166A695E000AD133 /* iOSicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOSicon.png; sourceTree = "<group>"; };
+		131EDC55166A6966000AD133 /* iOSicon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOSicon72.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 		131EDC0C166A6950000AD133 = {
 			isa = PBXGroup;
 			children = (
+				131EDC55166A6966000AD133 /* iOSicon72.png */,
+				131EDC53166A695E000AD133 /* iOSicon.png */,
 				131EDC21166A6950000AD133 /* LearningiOS */,
 				131EDC42166A6950000AD133 /* LearningiOSTests */,
 				131EDC1A166A6950000AD133 /* Frameworks */,
@@ -227,6 +233,8 @@
 				131EDC26166A6950000AD133 /* InfoPlist.strings in Resources */,
 				131EDC2F166A6950000AD133 /* MainStoryboard_iPhone.storyboard in Resources */,
 				131EDC32166A6950000AD133 /* MainStoryboard_iPad.storyboard in Resources */,
+				131EDC54166A695E000AD133 /* iOSicon.png in Resources */,
+				131EDC56166A6966000AD133 /* iOSicon72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
