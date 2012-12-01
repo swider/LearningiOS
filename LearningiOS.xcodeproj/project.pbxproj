@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		131EDC1C166A6950000AD133 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131EDC1B166A6950000AD133 /* UIKit.framework */; };
+		131EDC1E166A6950000AD133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131EDC1D166A6950000AD133 /* Foundation.framework */; };
+		131EDC20166A6950000AD133 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131EDC1F166A6950000AD133 /* CoreGraphics.framework */; };
+		131EDC26166A6950000AD133 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 131EDC24166A6950000AD133 /* InfoPlist.strings */; };
+		131EDC28166A6950000AD133 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 131EDC27166A6950000AD133 /* main.m */; };
+		131EDC2C166A6950000AD133 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 131EDC2B166A6950000AD133 /* AppDelegate.m */; };
+		131EDC2F166A6950000AD133 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131EDC2D166A6950000AD133 /* MainStoryboard_iPhone.storyboard */; };
+		131EDC32166A6950000AD133 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131EDC30166A6950000AD133 /* MainStoryboard_iPad.storyboard */; };
+		131EDC35166A6950000AD133 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 131EDC34166A6950000AD133 /* ViewController.m */; };
+		131EDC3D166A6950000AD133 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131EDC3C166A6950000AD133 /* SenTestingKit.framework */; };
+		131EDC3E166A6950000AD133 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131EDC1B166A6950000AD133 /* UIKit.framework */; };
+		131EDC3F166A6950000AD133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131EDC1D166A6950000AD133 /* Foundation.framework */; };
+		131EDC47166A6950000AD133 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 131EDC45166A6950000AD133 /* InfoPlist.strings */; };
+		131EDC4A166A6950000AD133 /* LearningiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 131EDC49166A6950000AD133 /* LearningiOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		131EDC40166A6950000AD133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 131EDC0E166A6950000AD133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 131EDC16166A6950000AD133;
+			remoteInfo = LearningiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		131EDC17166A6950000AD133 /* LearningiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		131EDC1B166A6950000AD133 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		131EDC1D166A6950000AD133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		131EDC1F166A6950000AD133 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		131EDC23166A6950000AD133 /* LearningiOS-Info.plist */ = {isa = PBXFileReference; path = "LearningiOS-Info.plist"; sourceTree = "<group>"; };
+		131EDC25166A6950000AD133 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		131EDC27166A6950000AD133 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		131EDC29166A6950000AD133 /* LearningiOS-Prefix.pch */ = {isa = PBXFileReference; path = "LearningiOS-Prefix.pch"; sourceTree = "<group>"; };
+		131EDC2A166A6950000AD133 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		131EDC2B166A6950000AD133 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		131EDC2E166A6950000AD133 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		131EDC31166A6950000AD133 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		131EDC33166A6950000AD133 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		131EDC34166A6950000AD133 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		131EDC3B166A6950000AD133 /* LearningiOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningiOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		131EDC3C166A6950000AD133 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		131EDC44166A6950000AD133 /* LearningiOSTests-Info.plist */ = {isa = PBXFileReference; path = "LearningiOSTests-Info.plist"; sourceTree = "<group>"; };
+		131EDC46166A6950000AD133 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		131EDC48166A6950000AD133 /* LearningiOSTests.h */ = {isa = PBXFileReference; path = LearningiOSTests.h; sourceTree = "<group>"; };
+		131EDC49166A6950000AD133 /* LearningiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearningiOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		131EDC14166A6950000AD133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131EDC1C166A6950000AD133 /* UIKit.framework in Frameworks */,
+				131EDC1E166A6950000AD133 /* Foundation.framework in Frameworks */,
+				131EDC20166A6950000AD133 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131EDC37166A6950000AD133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131EDC3D166A6950000AD133 /* SenTestingKit.framework in Frameworks */,
+				131EDC3E166A6950000AD133 /* UIKit.framework in Frameworks */,
+				131EDC3F166A6950000AD133 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		131EDC0C166A6950000AD133 = {
+			isa = PBXGroup;
+			children = (
+				131EDC21166A6950000AD133 /* LearningiOS */,
+				131EDC42166A6950000AD133 /* LearningiOSTests */,
+				131EDC1A166A6950000AD133 /* Frameworks */,
+				131EDC18166A6950000AD133 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		131EDC18166A6950000AD133 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				131EDC17166A6950000AD133 /* LearningiOS.app */,
+				131EDC3B166A6950000AD133 /* LearningiOSTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		131EDC1A166A6950000AD133 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				131EDC1B166A6950000AD133 /* UIKit.framework */,
+				131EDC1D166A6950000AD133 /* Foundation.framework */,
+				131EDC1F166A6950000AD133 /* CoreGraphics.framework */,
+				131EDC3C166A6950000AD133 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		131EDC21166A6950000AD133 /* LearningiOS */ = {
+			isa = PBXGroup;
+			children = (
+				131EDC2A166A6950000AD133 /* AppDelegate.h */,
+				131EDC2B166A6950000AD133 /* AppDelegate.m */,
+				131EDC2D166A6950000AD133 /* MainStoryboard_iPhone.storyboard */,
+				131EDC30166A6950000AD133 /* MainStoryboard_iPad.storyboard */,
+				131EDC33166A6950000AD133 /* ViewController.h */,
+				131EDC34166A6950000AD133 /* ViewController.m */,
+				131EDC22166A6950000AD133 /* Supporting Files */,
+			);
+			path = LearningiOS;
+			sourceTree = "<group>";
+		};
+		131EDC22166A6950000AD133 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				131EDC23166A6950000AD133 /* LearningiOS-Info.plist */,
+				131EDC24166A6950000AD133 /* InfoPlist.strings */,
+				131EDC27166A6950000AD133 /* main.m */,
+				131EDC29166A6950000AD133 /* LearningiOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		131EDC42166A6950000AD133 /* LearningiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				131EDC48166A6950000AD133 /* LearningiOSTests.h */,
+				131EDC49166A6950000AD133 /* LearningiOSTests.m */,
+				131EDC43166A6950000AD133 /* Supporting Files */,
+			);
+			path = LearningiOSTests;
+			sourceTree = "<group>";
+		};
+		131EDC43166A6950000AD133 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				131EDC44166A6950000AD133 /* LearningiOSTests-Info.plist */,
+				131EDC45166A6950000AD133 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		131EDC16166A6950000AD133 /* LearningiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131EDC4D166A6950000AD133 /* Build configuration list for PBXNativeTarget "LearningiOS" */;
+			buildPhases = (
+				131EDC13166A6950000AD133 /* Sources */,
+				131EDC14166A6950000AD133 /* Frameworks */,
+				131EDC15166A6950000AD133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearningiOS;
+			productName = LearningiOS;
+			productReference = 131EDC17166A6950000AD133 /* LearningiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		131EDC3A166A6950000AD133 /* LearningiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131EDC50166A6950000AD133 /* Build configuration list for PBXNativeTarget "LearningiOSTests" */;
+			buildPhases = (
+				131EDC36166A6950000AD133 /* Sources */,
+				131EDC37166A6950000AD133 /* Frameworks */,
+				131EDC38166A6950000AD133 /* Resources */,
+				131EDC39166A6950000AD133 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				131EDC41166A6950000AD133 /* PBXTargetDependency */,
+			);
+			name = LearningiOSTests;
+			productName = LearningiOSTests;
+			productReference = 131EDC3B166A6950000AD133 /* LearningiOSTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		131EDC0E166A6950000AD133 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 131EDC11166A6950000AD133 /* Build configuration list for PBXProject "LearningiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 131EDC0C166A6950000AD133;
+			productRefGroup = 131EDC18166A6950000AD133 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				131EDC16166A6950000AD133 /* LearningiOS */,
+				131EDC3A166A6950000AD133 /* LearningiOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		131EDC15166A6950000AD133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131EDC26166A6950000AD133 /* InfoPlist.strings in Resources */,
+				131EDC2F166A6950000AD133 /* MainStoryboard_iPhone.storyboard in Resources */,
+				131EDC32166A6950000AD133 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131EDC38166A6950000AD133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131EDC47166A6950000AD133 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		131EDC39166A6950000AD133 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		131EDC13166A6950000AD133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131EDC28166A6950000AD133 /* main.m in Sources */,
+				131EDC2C166A6950000AD133 /* AppDelegate.m in Sources */,
+				131EDC35166A6950000AD133 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131EDC36166A6950000AD133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131EDC4A166A6950000AD133 /* LearningiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		131EDC41166A6950000AD133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 131EDC16166A6950000AD133 /* LearningiOS */;
+			targetProxy = 131EDC40166A6950000AD133 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		131EDC24166A6950000AD133 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				131EDC25166A6950000AD133 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		131EDC2D166A6950000AD133 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				131EDC2E166A6950000AD133 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		131EDC30166A6950000AD133 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				131EDC31166A6950000AD133 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		131EDC45166A6950000AD133 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				131EDC46166A6950000AD133 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		131EDC4B166A6950000AD133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		131EDC4C166A6950000AD133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		131EDC4E166A6950000AD133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearningiOS/LearningiOS-Prefix.pch";
+				INFOPLIST_FILE = "LearningiOS/LearningiOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		131EDC4F166A6950000AD133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearningiOS/LearningiOS-Prefix.pch";
+				INFOPLIST_FILE = "LearningiOS/LearningiOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		131EDC51166A6950000AD133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LearningiOS.app/LearningiOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearningiOS/LearningiOS-Prefix.pch";
+				INFOPLIST_FILE = "LearningiOSTests/LearningiOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		131EDC52166A6950000AD133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LearningiOS.app/LearningiOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearningiOS/LearningiOS-Prefix.pch";
+				INFOPLIST_FILE = "LearningiOSTests/LearningiOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		131EDC11166A6950000AD133 /* Build configuration list for PBXProject "LearningiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131EDC4B166A6950000AD133 /* Debug */,
+				131EDC4C166A6950000AD133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		131EDC4D166A6950000AD133 /* Build configuration list for PBXNativeTarget "LearningiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131EDC4E166A6950000AD133 /* Debug */,
+				131EDC4F166A6950000AD133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		131EDC50166A6950000AD133 /* Build configuration list for PBXNativeTarget "LearningiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131EDC51166A6950000AD133 /* Debug */,
+				131EDC52166A6950000AD133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 131EDC0E166A6950000AD133 /* Project object */;
+}
